@@ -19,7 +19,6 @@ function setup() {
     }
     chrome.tabs.query(params, gotTabs);
     function gotTabs(tabs){
-      console.log("turning on");
       let msg = {
         txt: "turnItOn"
       }
