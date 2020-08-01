@@ -15,8 +15,8 @@ Want to try this extension on your chrome browser?
 4.) select the SRC folder
 
 
-5.) go to a site (not the chrome extensions or Shrome webstore sites)
+5.) go to a site (not the chrome extensions or Chrome webstore sites)
 
 6.) Enjoy using the extension!
 
-TIP: allow this extension to access websites ON CLICK (go to details to specify) this way you wnt be flooded with alerts.
+TIP: allow this extension to access websites ON CLICK (go to details to specify) this way you want be flooded with alerts.
