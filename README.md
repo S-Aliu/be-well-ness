@@ -15,7 +15,7 @@ Want to try this extension on your chrome browser?
 4.) select the SRC folder
 
 
-5.) go to a site (not the chrome extensions or Shrome webstore sites)
+5.) go to a site (not the chrome extensions or Chrome webstore sites)
 
 6.) Enjoy using the extension!
 
