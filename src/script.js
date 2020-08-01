@@ -1,6 +1,6 @@
 const s = (sketch) => {
 
-  let pos, img, blfButton, offButton, c, closeButton, open, turnOn,tintOn,timerOn;
+  let pos, img, c, open, turnOn,tintOn,timerOn;
   var timeoutID;
 
    sketch.setup = () => {
@@ -9,11 +9,6 @@ const s = (sketch) => {
      tintOn = false;
      pos = sketch.windowHeight*0.25;
      img = sketch.loadImage("https://cdn.glitch.com/29833027-82dc-4403-a61c-ceb34842f4d3%2Fwhite.jpg?v=1595964096242");
-     if (open){
-       // closeButton = sketch.createButton("X");
-       blfButton = sketch.createButton("blue light fliter");
-       offButton = sketch.createButton('turn off');
-     }
      sketch.colorMode(sketch.RGB, 255);
      sketch.delayedAlert();
    };
@@ -41,17 +36,13 @@ const s = (sketch) => {
 
 // turn filter on
   sketch.blueFilter = () => {
-    if (blfButton.mousePressed(sketch.blueLight)){
       tintOn = true;
-    }
   }
 
 
     sketch.off = () => {
-     if (offButton.mousePressed(sketch.off)) {
        //turn off tint
        tintOn = false;
-     }
    }
 
 
