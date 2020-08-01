@@ -5,7 +5,6 @@ const s = (sketch) => {
 
    sketch.setup = () => {
      open = true;
-     // ALERTS ARE OFF FOR NOW
      timerOn = false;
      tintOn = false;
      pos = sketch.windowHeight*0.25;
@@ -17,10 +16,6 @@ const s = (sketch) => {
      }
      sketch.colorMode(sketch.RGB, 255);
      sketch.delayedAlert();
-
-     // look for button element
-     // turnOn = sketch.select('#filterOn');
-     // turnOn.mouseClicked();
    };
 
 
@@ -61,19 +56,16 @@ const s = (sketch) => {
 
 
   sketch.takeBreak = () => {
-    alert("Look at an Object 20 feet away for at least 20 seconds!");
+    alert("Look at an object 20 feet away for at least 20 seconds!");
     if (timerOn){
     sketch.delayedAlert();
   }
   }
 
 
-  // pop up shows up after 5 seconds
-
+// reminds user every 20 minutes
   sketch.delayedAlert = () => {
-    console.log("counting");
-
-      timeoutID = window.setTimeout(sketch.takeBreak, 3*1000);
+      timeoutID = window.setTimeout(sketch.takeBreak, 1200*1000);
 
 
   }
