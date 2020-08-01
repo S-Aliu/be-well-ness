@@ -18,3 +18,5 @@ Want to try this extension on your chrome browser?
 5.) go to a site (not the chrome extensions or Shrome webstore sites)
 
 6.) Enjoy using the extension!
+
+TIP: allow this extension to access websites ON CLICK (go to details to specify) this way you wnt be flooded with alerts.
