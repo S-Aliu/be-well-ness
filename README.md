@@ -19,4 +19,4 @@ Want to try this extension on your chrome browser?
 
 6.) Click on the extension to give it access then again to open the popup: Enjoy using the extension!
 
-TIP: allow this extension to access websites ON CLICK (go to details to specify) this way you want be flooded with alerts.
+TIP: allow this extension to access websites ON CLICK (go to details to specify) this way you can avoid being flooded with alerts.
