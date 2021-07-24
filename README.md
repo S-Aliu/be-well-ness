@@ -1,6 +1,6 @@
 # Be Wellness App
 
-Coded by Elizabeth, Sekinat, and Tyson
+Coded by Elizabeth, Sekinat, and Tyson (Google CSSI 2020)
 
 Want to try this extension on your chrome browser?
 
